@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+.img-articulo1{
+    width: 400px;
+    height: 300px;
+}
+.img-articulo2{
+    width: 350px;
+    height: 300px;
+}
+.img-contact{
+    width: 400px;
+    height: 300px;
+}
