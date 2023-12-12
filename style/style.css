@@ -6,36 +6,64 @@ para centrar la imagen y recortar
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-main{
-    margin: 0px 50px 50px 50px;
+
+.layout{
+    margin: auto;
+    width: 100%;
+    max-width:48rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .logo{
     width: 140px;
     height: 110px;
+}
+
+.contLogo{ 
+    display: flex;
+    align-items: center;
+}
+
+.cont-subtitle-logo{
+    display: flex;
+}
+
+.articulo1{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
 }
 .img-articulo1{
     width: 400px;
     height: 300px;
 }
+
 .img-articulo2{
     width: 350px;
     height: 300px;
 }
+
 .img-contact{
     width: 400px;
     height: 300px;
     display: inline-block;
 }
 
-.ul-links{
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    margin-bottom: 50px;
-}
 .title{
     background-image: url(../img/design1_image1.jpg);
     height: 300px;
@@ -44,37 +72,56 @@ main{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
     font-size: 25px;
+    width: 100%;
 }
+
 .cont-subtitle{
     text-align: center;
-    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: center;
 }
+
 .subtitle{
-    display:inline-block;
     text-align:center;
-    font-size: 30px;
-    margin-right: 200px;
-    color: white;
+    font-size: 35px;
 }
-.contLogo{
-    display:inline-block;    
-    vertical-align: middle;
-}
-.cont-events{
-    display:inline-block;
-    margin-left: 150px;
-}
-.links{
-    margin: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    display: inline-block;
+
+nav{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
     background-color: red;
-    padding: 10px;
-    border-radius: 10%;
+    align-items: center;
+    height: 50px;
 }
+
+.ul-links{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+}
+
+.links{
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+}
+
 .links a{
     color:white;
+    text-decoration: none;
+    display: flex;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.cont-events{
+    padding: 0px 20px;
 }
 .event{
     font-size: 30px;
@@ -83,31 +130,57 @@ main{
 .description-event{
     margin-bottom: 20px;
 }
+
 .cont-about{
-    margin-left: 200px;
-    display: inline-block;
-    max-width: 800px;
-    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
 }
+
 .info-about{
     margin-bottom: 30px;
 }
+
 .subtitle-about{
     font-size: 30px;
     margin-bottom: 10px;
 }
+
 html{
     font-size: 17px;
 }
+
 .cont-contact{
     margin-left: 200px;
     display: inline-block;
 }
+
 .cont-contact p{
     margin-bottom: 10px;
 }
-.cont-footer{
-    background-color: grey;
-    height: 200px;
+
+footer{
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
 }
+
+.cont-main-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-articles-about{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.cont-subtitle-logo{
+    display: flex;
+    justify-content: center;
+}
+
 
