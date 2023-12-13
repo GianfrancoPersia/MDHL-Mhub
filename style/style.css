@@ -93,11 +93,11 @@ nav{
     list-style: none;
     text-align: center;
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .links{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
 }
@@ -142,7 +142,7 @@ html{
 
 
 footer{
-    background-color: black;
+    background-color: rgb(43, 42, 42);
     height: 50px;
     color: white;
     display: flex;
@@ -166,4 +166,76 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+
+.cont-table{
+    display: flex;
+    justify-content: center;
+}
+.table-game{
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-game tr,th, td{
+    border: solid 1px black;
+}
+
+.table-thead th{
+    padding: 25px 40px;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+}
+
+.table-tbody td{
+    padding: 5px;    
+}
+
+.tablerow-1{
+    background-color: rgb(52, 177, 135);
+}
+.tablerow-2{
+    background-color: rgb(233, 179, 42);
+}
+.tablerow-3{
+    background-color: rgb(21, 242, 235);
+}
+.tablerow-4{
+    background-color: rgb(191, 128, 249);
+}
+.tablerow-5{
+    background-color: greenyellow;
+}
+
+.section-rules-polices{
+    margin: 10px;
+}
+
+.subtitle-rules-polices {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cont-sportmanship p{
+    margin: 10px 20px;
+}
+
+.cont-regulation{
+    margin: 20px 40px;
+}
+.cont-young-agegroups{
+    margin: 0px 20px;
+}
+
+.cont-allplay p{
+    margin: 10px 20px;
+}
+.cont-allplay li{
+    margin: 10px 50px;
+}
+
+
+
+
 
